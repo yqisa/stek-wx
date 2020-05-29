@@ -1,0 +1,8 @@
+/* pages/hd/index.wxss */
+.listmain,.main{padding:30rpx;}
+image{width:100%}
+.main{background:#242425;margin-top:-6rpx}
+.listmain .title{display:inline;padding:30rpx 0rpx 10rpx 0rpx;border-bottom:1px solid #8f2924;font-size:34rpx}
+page{color:#ffffff}
+.text{font-size:26rpx;padding:30rpx 0}
+.smalltext{font-size:20rpx;color:#7c7c7c}

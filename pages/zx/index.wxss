@@ -1,0 +1,14 @@
+/* pages/hd/index.wxss */
+.listmain,.main{padding:30rpx;}
+image{width:100%}
+.main{background:#242425;margin-top:-6rpx;padding-top:0rpx;}
+.listmain .title{display:inline;padding:30rpx 0rpx 10rpx 0rpx;border-bottom:1px solid #8f2924;font-size:34rpx}
+page{color:#ffffff}
+.text{font-size:26rpx;padding:10rpx 0}
+.navtitle{font-size:34rpx;color:#FFF;padding:30rpx;}
+.navtitle text{display:block;float: left;background:#8f2924;width:10rpx;height:32rpx;border-radius:6rpx;margin:12rpx 10rpx 0 0}
+.smalltext{font-size:20rpx;color:#7c7c7c}/* pages/zx/index.wxss */
+.page{width:430rpx;margin:60rpx auto;display:flex;font-size:20rpx;line-height:30rpx;color:#a7a6ab;text-align:center}
+.size{padding:8rpx 40rpx;background:#242425;border-radius:30rpx}
+.page .text{padding:8rpx 30rpx;width:100rpx}
+.active{background:#8f2924;}

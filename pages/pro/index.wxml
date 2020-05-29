@@ -1,0 +1,35 @@
+<view class="banner">
+<image mode="widthFix" src="{{fm}}"></image>
+</view>
+
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+
+ 
+<view class='alli' data-A="{{index}}">
+{{array[index]}}
+<image src="/images/pplcion.png"></image>
+</view>
+</picker>
+
+<view class='ul'>
+<view class='li' wx:for="{{list}}" bindtap="prodetail" data-a="{{item.id}}">
+<image mode="widthFix" src='{{item.content_first_image}}'></image>
+<view class='litexttitle'>
+{{item.title.rendered}}
+</view>
+<view class='litext'>
+
+</view>
+</view>
+
+<!-- <view class='li'>
+<image mode="widthFix" src='https://cdmcxq.com/stek/cp3.png'></image>
+<view class='litexttitle' style="border-bottom:none">
+国外精品案例 保时捷GT2RS
+</view>
+<view class='litext'>
+
+</view>
+</view> -->
+
+</view>

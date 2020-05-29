@@ -1,0 +1,11 @@
+/* pages/pro/index.wxss */
+/* .banner{} */
+.banner image{width:100%;}
+.ul{padding:30rpx;text-align: center;}
+.ul .li{margin-bottom:20rpx;border-radius:26rpx;line-height:36rpx;background:#242425;overflow:hidden}
+.ul .li image{width:100%;margin-bottom:10rpx}
+.ul .litexttitle{font-size:30rpx;font-weight:bold;margin-left:30rpx;margin-right:30rpx;display:inline;color:#FFF;border-bottom:1px solid #8f2924;padding-bottom:6rpx;letter-spacing:1px}
+.litext{font-size:24rpx;color:#FFF;padding-bottom:20rpx;color:#464648;margin-top:14rpx;margin-left:30rpx;margin-right:30rpx;
+}
+.alli{padding:16rpx 20rpx;margin:16rpx 30rpx;background:#242425;color:#FFF;font-size:30rpx;letter-spacing:1px;padding-right:36rpx;border-radius:8rpx;padding-left:40rpx;}
+.alli image{float:right;width:60rpx;height:36rpx;}

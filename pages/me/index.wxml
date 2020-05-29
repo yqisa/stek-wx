@@ -1,0 +1,26 @@
+<!--pages/me/index.wxml-->
+<image mode="widthFix" src="/images/me1.png"></image>
+<view class="main">
+   <view class="li">
+   <view class="liimg">
+   <image mode="widthFix" src="/images/me2.png"></image>
+   </view><view class="litext">地址:  上海市松江区 莘松路1398号歆翱创新园 A13-1</view>
+   </view>
+   <view class="li">
+   <view class="liimg">
+   <image mode="widthFix" src="/images/me3.png"></image></view><view class="litext">加盟热线:  13166167867</view>
+   </view>
+   <view class="li">
+   <view class="liimg">
+   <image mode="widthFix" src="/images/me4.png"></image></view><view class="litext">加盟热线:  13052224656</view>
+   </view>
+    <view class="li">
+    <view class="liimg">
+   <image mode="widthFix" src="/images/me5.png"></image></view><view class="litext">邮箱:  sale@stek-china.com</view>
+   </view>
+   <view class="saoma">
+   <image mode="widthFix" src="/images/me6.png"></image>
+   <text>扫一扫</text>
+   <text>关注我们，了解更多</text>
+   </view>
+</view>

@@ -1,0 +1,43 @@
+/**index.wxss**/
+
+page{position:relative}
+.nav_btn{position:absolute;width:100rpx;height:100rpx;left:0;top:0;z-index:1}
+.nav,.navimg{position:fixed;width:480rpx;height:auto;left:0;top:100rpx;z-index:1;background:#242425;}
+.navimg image{width:100%}
+.nav{z-index:200}
+.nav .li{width:100%;height:118rpx;line-height:118rpx;font-size:36rpx;color:#FFF;float:left;vertical-align:middle;border-bottom:1px solid #9a9a9a}
+.li .leftcion{width:60rpx;height:60rpx;float:left;margin:30rpx 20rpx;margin-left:40rpx}
+.li .rightcion{float:right;width:40rpx;height:40rpx;margin:40rpx 30rpx}
+.cimg{width:100%;}
+.topnav{display:flex;height:60rpx;position:fixed;z-index:202;width:100%;padding:20rpx 16rpx;background:#000;top:0}
+.topnav image{width:60rpx;height:60rpx;}
+.topnav input{height:60rpx;line-height:60rpx;width:67%;margin:0 18rpx;border-radius:40rpx;background:#242425;padding:0 70rpx;color:#FFF;font-size:26rpx;padding-right:0}
+.topnav .ss{position:absolute;top:32rpx;left:104rpx;width:40rpx;height:40rpx}
+.swiper-box{height:560rpx;margin-top:100rpx}
+swiper image{width:100%}
+.ul{padding:30rpx;padding-top:0;text-align: left;}
+.ul .li{margin-bottom:20rpx;border-radius:26rpx;line-height:36rpx;background:#242425;overflow:hidden}
+.ul .li image{width:100%;margin-bottom:10rpx}
+.ul .litexttitle{font-size:30rpx;font-weight:bold;margin-left:30rpx;margin-right:30rpx;display:inline;color:#FFF;border-bottom:1px solid #8f2924;padding-bottom:6rpx;letter-spacing:1px}
+.litext{font-size:24rpx;color:#FFF;padding-bottom:20rpx;color:#464648;margin-top:14rpx;margin-left:30rpx;margin-right:30rpx;
+}
+.indexnav{padding:0 30rpx;width:74%}
+.indexnav image{width:100%}
+.gengduo{width:200rpx;text-align:center;line-height:60rpx;padding:0 30rpx;margin:30rpx auto;background:#242425;color:#fff;font-size:26rpx}
+
+.swiper-box .wx-swiper-dot{}
+.swiper-box .wx-swiper-dot::before{
+}
+.swiper-box .wx-swiper-dot-active{width:40rpx;height: 10rpx;border-radius:20rpx;margin-top:-10rpx;padding-top:0}
+.swiper-box .wx-swiper-dot-active::before{
+margin-top:-10rpx;
+ background:rgba(244,0,0,0.8);  
+
+}
+.indexsw image{width:90%;position:relative;overflow:visible;text-align:center}
+.imgtext{position: absolute;left:0;bottom:-79rpx;width:100%;height:80rpx;line-height:80rpx;background:#242425;color:#FFF;font-size:30rpx;border-bottom-left-radius:20rpx;border-bottom-right-radius:20rpx;}
+.imgtext text{font-weight:bold;padding-right:20rpx}
+
+
+
+

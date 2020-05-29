@@ -1,0 +1,14 @@
+/* pages/al/detail.wxss */
+@import "../wxParse/wxParse.wxss";
+image{width:100%}
+page{background:none}
+page img{width: 100%}
+rich-text .rich-img {
+width: 100% ;
+height: auto ;
+}
+image-wrap{
+width: 100% ;
+height: auto ;
+display: flex;
+}

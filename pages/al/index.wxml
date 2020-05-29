@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<view class="topnav">
+<image bindtap='opennav' mode="widthFix" src="/images/nav.png"></image>
+<input type="text" placeholder="搜"></input>
+<image class="ss" mode="widthFix" src="/images/ss.png"></image>
+<image bindtap='openus' mode="widthFix" src="/images/us.png"></image>
+</view>
+
+<!-- <image class="cimg" bindtap="aldetail" mode="widthFix" src="{{src}}">
+</image> -->
+
+<view class='ul'>
+<view class='li' bindtap="detail" wx:for="{{list}}" data-a="{{item.id}}">
+<image mode="widthFix" src='{{item.content_first_image}}'></image>
+<view class='litexttitle'>
+{{item.title.rendered}}
+</view>
+<view class='litext'>
+
+</view>
+</view>
+
+</view>
+
+<view class='page' wx:if="{{list}}">
+   <view class="size" bindtap="last">上一页</view>
+   <view class="text">{{page}} / {{maxsize}}</view>
+   <view class="size active" bindtap="next">下一页</view>
+</view>
+
+<view class="nav" wx:if="{{opennav}}">
+<view class='li' bindtap="index" data-a="{{item.slug}}" data-b="{{item.id}}" wx:for="{{navlist}}" wx:if="{{item.parent==0}}">
+  <image class="leftcion" src="/images/{{item.slug}}.png"></image>
+  {{item.name}}
+  <image class="rightcion" src="/images/pprcion.png"></image>
+</view>
+<!-- <view class='li' bindtap="pro">
+</view>
+<view class='li' bindtap="al">
+</view>
+<view class='li' bindtap="pp">
+</view>
+<view class='li' bindtap="hd">
+</view>
+<view class='li' bindtap="us">
+</view>
+<view class='li' bindtap="zx">
+</view> -->
+</view>

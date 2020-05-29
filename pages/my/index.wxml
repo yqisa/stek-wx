@@ -1,0 +1,41 @@
+<view class="page">
+    <view class="avatar">
+        <open-data class="avatarimg" type="userAvatarUrl"></open-data>
+            <view class="kongge">
+    </view>
+        <open-data type="userNickName" class="changeName" lang="zh_CN"></open-data>
+    </view>
+    <!-- <view class="name">
+        <text class="left fz-14 small-level-color">昵称</text>
+        <input bindinput="inputing" class="right" placeholder="{{palceHolder}}" type="text" value="{{inputVal}}"></input>
+        <text bindtap="clearInput" class="iconfont icon-delete fz-18 gray-color" wx:if="{{inputVal}}"></text>
+    </view> -->
+       <!-- <view class="jianjie">
+    </view>-->
+    <view class="jianjie">
+        <text class="left fz-14 small-level-color">案例标题:</text>
+        <input bindinput="inputing_zhiye" class="right" placeholder="请输入案例标题" type="text" value="{{zhiye_msg}}"></input>
+        <text class="left fz-14 small-level-color">案例内容:</text>
+        <!-- <input bindinput="inputing_con" class="right" placeholder="请输入内容" type="text" value="{{con_msg}}"></input> -->
+        <textarea maxlength="-1" bindinput="inputing_con" class="right" placeholder="请输入内容" type="text" value="{{con_msg}}" style="overflow-x: hidden;height:300rpx;border:1px solid #ebebeb;margin-left:30rpx;width:90%;line-height:40rpx;font-size:26rpx;padding:10rpx"></textarea>
+        <!-- <text bindtap="clearInput_zhiye" class="iconfont icon-delete fz-18 gray-color" wx:if="{{zhiye_msg}}"></text> -->
+                  <view class="general_style">
+                <view class="upload-file" wx:key="imgbox" wx:for="{{imgbox}}">
+                    <view class="pic">
+                        <image bindtap="preview" wx:if="{{imgType=='img'}}" data-wpypreview-a="{{img}}" mode="aspectFill" src="{{item}}" style="width:100%;height:100%;"></image>
+                        <video data-wpypreview-a="{{img}}" wx:if="{{imgType=='video'}}" mode="aspectFill" src="{{item}}" style="width:100%;height:100%;"></video>
+                        <view data-deindex='{{index}}' data-wpyuploadfile-a="huxing" bindtap='imgDelete1' class="small-level-color" style="position:absolute;line-height:1;bottom:-40rpx;font-size: 28rpx;left:56rpx">删除</view>
+                    </view>
+                </view>
+                <view class="upload-file">
+                    <view bindtap="addPic1" class="pic" data-wpyuploadfile-a="huxing">
+                        <text style="position:absolute;line-height:1;bottom:-40rpx;font-size: 28rpx;color: #ccc;margin-left:50rpx">上传案例</text>
+                    </view>
+                </view>
+                </view>
+    </view>
+    
+    <view class="bottom">
+        <view bindtap="saveInfo" class="btn white-color">提交案例</view>
+    </view>
+</view>

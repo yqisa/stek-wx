@@ -1,0 +1,28 @@
+<!--pages/hd/index.wxml-->
+<view>
+<image mode="widthFix" src="{{banner}}"></image>
+<block wx:for="{{list}}">
+<view class='navtitle'>
+<text></text>{{item.category_name}}
+</view>
+<view class="listmain" bindtap="detail" data-a="{{item.id}}">
+<image mode="widthFix" src="{{item.content_first_image}}"></image>
+<view class="main">
+<view class="text">
+{{item.title.rendered}}
+</view>
+<view class="smalltext">
+发布时间: {{item.modified}}
+</view>
+</view>
+</view>
+</block>
+</view>
+<view class='page' wx:if="{{list}}">
+   <view class="size" bindtap="last">上一页</view>
+   <view class="text">{{page}} / {{maxsize}}</view>
+   <view class="size active" bindtap="next">下一页</view>
+</view>
+
+
+

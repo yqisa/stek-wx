@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/index",
+    "pages/logs/logs",
+    "pages/pro/index",
+    "pages/me/index",
+    "pages/al/index",
+    "pages/al/detail",
+    "pages/pro/detail",
+    "pages/zx/index",
+    "pages/zx/detail",
+    "pages/pp/index",
+    "pages/pp/detail",
+    "pages/us/index",
+    "pages/hd/index",
+    "pages/hd/sousuo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "STEK",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#FFF",
+    "backgroundColor": "#242426",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "active": false,
+        "selectedColor": "#FFF",
+        "iconPath": "images/c01.png",
+        "selectedIconPath": "images/c1.png"
+      },
+      {
+        "pagePath": "pages/pro/index",
+        "text": "产品系列",
+        "active": false,
+        "selectedColor": "#FFF",
+        "iconPath": "images/c02.png",
+        "selectedIconPath": "images/c2.png"
+      },
+      {
+        "pagePath": "pages/al/index",
+        "text": "精品案例",
+        "active": false,
+        "selectedColor": "#FFF",
+        "iconPath": "images/c03.png",
+        "selectedIconPath": "images/c3.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "联系我们",
+        "active": false,
+        "selectedColor": "#FFF",
+        "iconPath": "images/c04.png",
+        "selectedIconPath": "images/c4.png"
+      }
+    ],
+    "position": "bottom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

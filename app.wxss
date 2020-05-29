@@ -1,0 +1,9 @@
+page{margin:0;padding:0;background:#000000}
+.main{overflow:hidden}
+rich-text   .rich-img {
+
+width: 100% ;
+
+height: auto ;
+
+}

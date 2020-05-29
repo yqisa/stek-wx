@@ -1,0 +1,11 @@
+<!--pages/pro/detail.wxml-->
+<image mode="widthFix" src="{{src1}}"></image>
+<image mode="widthFix" src="{{src2}}"></image>
+<image mode="widthFix" src="{{src3}}"></image>
+<image mode="widthFix" src="{{src4}}"></image>
+<view class='page'>
+   <view class="size" bindtap="last">上一页</view>
+   <view class="text">{{page}} / {{maxsize}}</view>
+   <view class="size active" bindtap="next">下一页</view>
+</view>
+

@@ -1,0 +1,7 @@
+/* pages/pp/index.wxss */
+page{padding:30rpx 0}
+.li{padding:16rpx 20rpx;margin:16rpx 30rpx;background:#242425;color:#FFF;font-size:30rpx;letter-spacing:1px;padding-right:0;border-radius:8rpx}
+.li image{float:right;width:40rpx;height:30rpx}
+.limain{width:80%;padding:10rpx 70rpx}
+.limain image{width:100%}
+.limain .text{padding:0rpx 0;color:#5c5b5b;font-size:26rpx}

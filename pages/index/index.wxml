@@ -1,0 +1,73 @@
+<!--index.wxml-->
+<view class="topnav">
+<image bindtap='opennav' mode="widthFix" src="/images/nav.png"></image>
+<input bindconfirm='sousuo' value="" type="text" placeholder="搜索"></input>
+<image class="ss" mode="widthFix" src="/images/ss.png"></image>
+<image bindtap='openus' mode="widthFix" src="/images/my.png"></image>
+</view>
+<swiper class="swiper-box" indicator-dots indicator-color="rgba(171, 171, 171, .3)" indicator-active-color="#8f2924">
+        <block wx:for="{{banner}}" wx:key="*this">
+          <swiper-item>
+            <image src="{{item}}"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+<view class='indexnav'>
+<image mode="widthFix" src='/images/indexnav1.png'></image>
+</view>
+
+<view class='ul'>
+<view class='li' bindtap="detail" wx:for="{{list}}" data-a="{{item.id}}" wx:if="{{index<2}}">
+<image mode="widthFix" src='{{item.content_first_image}}'></image>
+<view class='litexttitle'>
+{{item.title.rendered}}
+</view>
+<view class='litext'>
+<!-- {{item.slug}} -->
+</view>
+</view>
+
+</view>
+<view class='gengduo' bindtap="al">查看更多案例></view>
+
+<view class='indexnav'>
+<image mode="widthFix" src='/images/indexnav2.png'></image>
+</view>
+<!-- <image class="cimg" mode="widthFix" src="{{src}}"></image> -->
+<swiper class="indexsw" previous-margin="50px" next-margin="30px" indicator-dots indicator-color="rgba(171, 171, 171, .3)" indicator-active-color="#8f2924" style='margin-top:0;height:390rpx'>
+        <block wx:for="{{array}}" wx:key="*this">
+          <swiper-item bindtap="cpxl">
+            <image mode="widthFix" src="{{item.category_thumbnail_image}}">
+            <view class='imgtext'><text>{{item.name}}</text></view>
+            </image>
+            
+          </swiper-item>
+        </block>
+      </swiper>
+
+
+
+<view class="nav_btn" bindtap='opennav'>
+</view>
+<!-- <view class="navimg" wx:if="{{opennav}}">
+<image mode="widthFix" src="{{srcnav}}"></image>
+</view> -->
+<view class="nav" wx:if="{{opennav}}">
+<view class='li' bindtap="index" data-a="{{item.slug}}" data-b="{{item.id}}" wx:for="{{navlist}}" wx:if="{{item.parent==0}}">
+  <image class="leftcion" src="/images/{{item.slug}}.png"></image>
+  {{item.name}}
+  <image class="rightcion" src="/images/pprcion.png"></image>
+</view>
+<!-- <view class='li' bindtap="pro">
+</view>
+<view class='li' bindtap="al">
+</view>
+<view class='li' bindtap="pp">
+</view>
+<view class='li' bindtap="hd">
+</view>
+<view class='li' bindtap="us">
+</view>
+<view class='li' bindtap="zx">
+</view> -->
+</view>

@@ -1,0 +1,22 @@
+<!--pages/pp/detail.wxml-->
+<view class='page'>
+<view class="title">
+{{title}}
+</view>
+<view class="time">
+{{time}}
+</view>
+<view class="moment">
+    <rich-text nodes="{{nodes}}" bindtap="test"></rich-text>
+</view>
+<view class="time">
+<!-- 浏览 245 -->
+</view>
+</view>
+<view class='foot'>
+<view class="time" style='padding-top:0;padding-bottom:10rpx'>
+复制链接到浏览器即可下载
+</view>
+<input type="text" value='{{slug}}' disabled="false"></input>
+<view class='fz' bindtap='fz'>复制链接</view>
+</view>

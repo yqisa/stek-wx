@@ -1,0 +1,2 @@
+<!--pages/zx/detail.wxml-->
+<image mode="widthFix" src="{{src}}"></image>

@@ -1,0 +1,6 @@
+/* pages/pro/detail.wxss */
+image{width:100%}
+.page{width:400rpx;margin:60rpx auto;display:flex;font-size:20rpx;line-height:30rpx;color:#a7a6ab;text-align:center}
+.size{padding:8rpx 40rpx;background:#242425;border-radius:30rpx}
+.page .text{padding:8rpx 30rpx;width:72rpx}
+.active{background:#8f2924;}

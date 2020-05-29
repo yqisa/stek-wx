@@ -1,0 +1,5 @@
+<!--pages/al/detail.wxml-->
+
+<!-- <rich-text nodes="{{nodes}}" bindtap="test"></rich-text> -->
+<import src="../wxParse/wxParse.wxml"/>
+<template is="wxParse" data="{{wxParseData:article.nodes}}"/>

@@ -1,0 +1,5 @@
+<!--pages/us/index.wxml-->
+<block wx:for="{{src}}" wx:key="">
+<image mode="widthFix" src="{{item}}"></image>
+</block>
+

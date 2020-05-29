@@ -1,0 +1,8 @@
+/* pages/me/index.wxss */
+image{width:100%}
+.main image{width:68rpx;height:68rpx;padding-right:20rpx}
+.main{padding:60rpx 46rpx;margin: 0 auto;width:80%;background:#1d1b1c;color:#FFF;font-size:32rpx}
+.main .li{line-height:68rpx;display:flex}
+.saoma{padding:30rpx 0 30rpx 0;margin: 0 auto;width:50%}
+.saoma image{width:100%;}
+.saoma text{color:#FFF;font-size:30rpx;text-align:center;display:block;line-height:40rpx}
