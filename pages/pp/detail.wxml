@@ -7,7 +7,9 @@
 {{time}}
 </view>
 <view class="moment">
-    <rich-text nodes="{{nodes}}" bindtap="test"></rich-text>
+    <!-- <rich-text nodes="{{nodes}}" bindtap="test"></rich-text> -->
+    <import src="../wxParse/wxParse.wxml"/>
+<template is="wxParse" data="{{wxParseData:article.nodes}}"/>
 </view>
 <view class="time">
 <!-- 浏览 245 -->

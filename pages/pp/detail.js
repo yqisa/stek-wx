@@ -1,4 +1,5 @@
 // pages/pp/detail.js
+var WxParse = require('../wxParse/wxParse.js');
 const app = getApp()
 Page({
 
@@ -22,7 +23,6 @@ htmlVal:''
     that.setData({
       time: options.time,
       title: options.title,
-      slug: options.slug,
     })
     wx.request({
       url: app.globalData.rurl + "wp-json/wp/v2/posts/" + options.id,
@@ -33,12 +33,16 @@ htmlVal:''
         'content-type': 'application/json'
       },
       success(res) {
-        res.data.content.rendered = res.data.content.rendered.replace(/\<img/g, '<img style="width:100%!important;height:auto;"');
-        console.log(res.data.content.rendered)  
-        that.data.htmlVal = res.data.content.rendered
+        // res.data.content.rendered = res.data.content.rendered.replace(/\<img/g, '<img style="width:100%!important;height:auto;"');
+        // console.log(res.data.content.rendered)  
+        res.data.excerpt.rendered = res.data.excerpt.rendered.replace("<p>","");
+        res.data.excerpt.rendered = res.data.excerpt.rendered.replace("</p>", "");
+        // that.data.htmlVal = res.data.content.rendered
         that.setData({
-          nodes: res.data.content.rendered
+          slug: res.data.excerpt.rendered
         })
+        // wx.hideLoading()
+        WxParse.wxParse('article', 'html', res.data.content.rendered, that, 5);
         wx.hideLoading()
       }
     })

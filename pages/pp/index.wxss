@@ -1,4 +1,5 @@
 /* pages/pp/index.wxss */
+@import "../wxParse/wxParse.wxss";
 page{padding:30rpx 0}
 .li{padding:16rpx 20rpx;margin:16rpx 30rpx;background:#242425;color:#FFF;font-size:30rpx;letter-spacing:1px;padding-right:0;border-radius:8rpx}
 .li image{float:right;width:40rpx;height:30rpx}
