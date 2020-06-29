@@ -7,7 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-xzurl:"https://www.vavavavavav.com",
+xzurl:"",
 nodes:'',
 htmlVal:''
   },
@@ -37,6 +37,7 @@ htmlVal:''
         // console.log(res.data.content.rendered)  
         res.data.excerpt.rendered = res.data.excerpt.rendered.replace("<p>","");
         res.data.excerpt.rendered = res.data.excerpt.rendered.replace("</p>", "");
+        that.data.xzurl = res.data.excerpt.rendered
         // that.data.htmlVal = res.data.content.rendered
         that.setData({
           slug: res.data.excerpt.rendered
