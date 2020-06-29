@@ -2,7 +2,7 @@
 <!-- <image mode="widthFix" src="{{category_thumbnail_image}}"></image> -->
 <block bindtap="detail" wx:for="{{list}}" data-a="{{item.id}}">
 <view class="listmain">
-<image mode="widthFix" src="{{item.content_first_image}}"></image>
+<image mode="widthFix" src="{{item.post_medium_image}}"></image>
 <view class="main">
 <view class="title">
 {{item.title.rendered}}

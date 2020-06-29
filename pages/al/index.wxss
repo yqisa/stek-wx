@@ -11,7 +11,7 @@ page{position:relative}
 .topnav image{width:60rpx;height:60rpx;}
 .topnav input{height:60rpx;line-height:60rpx;width:67%;margin:0 18rpx;border-radius:40rpx;background:#242425;padding:0 70rpx;color:#FFF;font-size:26rpx;padding-right:0}
 .topnav .ss{position:absolute;top:32rpx;left:104rpx;width:40rpx;height:40rpx}
-.page{width:400rpx;margin:60rpx auto;display:flex;font-size:20rpx;line-height:30rpx;color:#a7a6ab;text-align:center}
+.page{width:420rpx;margin:60rpx auto;display:flex;font-size:20rpx;line-height:30rpx;color:#a7a6ab;text-align:center}
 .size{padding:8rpx 40rpx;background:#242425;border-radius:30rpx}
 .text{padding:8rpx 30rpx;width:72rpx}
 .active{background:#8f2924;}

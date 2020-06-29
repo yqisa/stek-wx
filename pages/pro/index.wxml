@@ -13,7 +13,7 @@
 
 <view class='ul'>
 <view class='li' wx:for="{{list}}" bindtap="prodetail" data-a="{{item.id}}">
-<image mode="widthFix" src='{{item.content_first_image}}'></image>
+<image mode="widthFix" src='{{item.post_medium_image}}'></image>
 <view class='litexttitle'>
 {{item.title.rendered}}
 </view>

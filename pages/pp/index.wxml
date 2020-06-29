@@ -5,7 +5,7 @@
 <image mode="widthFix" src="{{item.listAdId==listAdId?'/images/pplcion.png':'/images/pprcion.png'}}"></image>
 </view>
 <view class='limain' wx:if="{{item.listAdId==listAdId}}">
-<image mode="widthFix" bindtap="detail" data-A="{{item.id}}" data-d="{{item.slug}}" data-b="{{item.title.rendered}}" data-c="{{item.modified}}" src="{{item.content_first_image}}"></image>
+<image mode="widthFix" bindtap="detail" data-A="{{item.id}}" data-d="{{item.slug}}" data-b="{{item.title.rendered}}" data-c="{{item.modified}}" src="{{item.post_medium_image}}"></image>
 <view class='text'>
 {{item.title.rendered}}
 </view>

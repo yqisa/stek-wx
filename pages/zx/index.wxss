@@ -8,7 +8,7 @@ page{color:#ffffff}
 .navtitle{font-size:34rpx;color:#FFF;padding:30rpx;}
 .navtitle text{display:block;float: left;background:#8f2924;width:10rpx;height:32rpx;border-radius:6rpx;margin:12rpx 10rpx 0 0}
 .smalltext{font-size:20rpx;color:#7c7c7c}/* pages/zx/index.wxss */
-.page{width:430rpx;margin:60rpx auto;display:flex;font-size:20rpx;line-height:30rpx;color:#a7a6ab;text-align:center}
+.page{width:440rpx;margin:60rpx auto;display:flex;font-size:20rpx;line-height:30rpx;color:#a7a6ab;text-align:center}
 .size{padding:8rpx 40rpx;background:#242425;border-radius:30rpx}
 .page .text{padding:8rpx 30rpx;width:100rpx}
 .active{background:#8f2924;}

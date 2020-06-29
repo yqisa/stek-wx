@@ -6,7 +6,7 @@
 <text></text>{{item.category_name}}
 </view>
 <view class="listmain" bindtap="detail" data-a="{{item.id}}">
-<image mode="widthFix" src="{{item.content_first_image}}"></image>
+<image mode="widthFix" src="{{item.post_medium_image}}"></image>
 <view class="main">
 <view class="text">
 {{item.title.rendered}}
